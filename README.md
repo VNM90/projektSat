@@ -4,3 +4,6 @@ I could not return data from promise it is all the time on pending and when I tr
 I am not really proud what I have done but something is better than nothing.:)
 
 Thank you for your time.
+
+DATABASE:
+curl https://satagro-projekt-default-rtdb.firebaseio.com/plans.json"
