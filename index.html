@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/style.css">
+  <title>project</title>
+</head>
+
+<body>
+  <div id="container">
+    <div class="dropdown">
+      <button onclick="dropdownShow()" class="dropbtn">Please select a country</button>
+      <div id="dropdownCountries" class="dropdown-content">
+        <input type="text" placeholder="&#8981; Search for the country" id="dataInput" onkeyup="filterFunction()">
+        <a id="PL">Poland</a>
+        <a id="CZ">Czech Republic</a>
+        <a id="SK">Slovakia</a>
+        <a id="LT">Lithuania</a>
+      </div>
+    </div>
+    <div id="plans"></div>
+  </div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+  <script src="/script.js"></script>
+
+</body>
+
+</html>
